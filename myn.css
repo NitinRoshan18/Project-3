@@ -3,6 +3,7 @@
     font-family:Arial;
     border:border-box;
 }
+ /*Navigation Bar start */
 
 .navbar{
     height: 80px;
@@ -17,14 +18,13 @@
     text-align: center;
     z-index: 1000;
     border: solid rgba(245, 245, 245, 0.251) 0.2px;         
-
 }
 .t1{
     color: black;
     font-weight: 700;
 }
 .t2{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     color: black;
     font-weight: 700;
@@ -63,7 +63,7 @@ a{
     height: 46.4px;
     width: 83.84px;
     font-size:14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px 17px 28px 0px;
     text-align: center;
     font-weight: 700%;
@@ -72,25 +72,19 @@ a{
     justify-content: space-evenly;
 }
 
+/*navigation bar Ends here*/
 
-.slide-container{
+/*Content 1 start here */
+
+.slider{
     position: relative;
-    /*max-width: 600px;*/
     margin: auto;
     overflow: hidden;
 }
-/*.img-container img{
-    width: 1533px;
-    height: 330px;
-    margin-right: 10px;
-}*/
 
-.slider{
+.slides{
     display: flex;
     transition: transform 0.5s ease-in-out;
-}
-.slide{
-    width: 100%;
 }
 
 .bullets{
@@ -108,16 +102,23 @@ a{
     cursor: pointer;
 }
 
+/*content 1 End here*/
+
+/*content 2 start here*/
+
 .content2{
     height: 90px;
-    /*border: 0.2px solid black;*/
 }
 .cont2-text{
     font-size: 28.8px;
     margin: 50px 0px 10px 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-family: system-ui, 'Segoe UI', sans-serif;
 }
+
+/*content 2 End here*/
+
+/*content 3 start here*/
+
 .content3{
     display: flex;
     height: 342px;
@@ -125,11 +126,14 @@ a{
     align-items: center;
 }
 
+/*content 3 End here*/
+
+/*content 4 start here*/
+
 .content4{
 
     display: flex;
     flex-wrap: wrap;
-   /* align-items: center; */
 }
 .cont4b{
     display: flex;
@@ -141,6 +145,9 @@ ul{
     list-style-type: none;
 }
 
+/*content 4 End here*/
+
+/*Footer Start here*/
 .footer{
     display: flex;
     height: 428px;
@@ -172,7 +179,7 @@ span{
 
 .Address{
 display: flex;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 color: #282C3F;
 height: 200px;
 align-content: space-evenly;
